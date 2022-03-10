@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7ff;
+}
+
+app-card.card2 .div2, app-card.card2 .pcifrao, app-card.card2 .subtitle {
+    color: white;
+}
+
+app-card.card2 .div2 {
+    background-color: #8084e5;
+    height: 450px;
+}
+
+app-card.card2 .btn {
+    border-color: white;
+}
+
+app-card.card2 .title {
+    padding-top: 40px;
+    opacity: 1;
+}
+
+app-card.card2 .btn:hover {
+    color: white;
+}
+
+app-card.card2 .content {
+    color: white;
+}
+
+
+
